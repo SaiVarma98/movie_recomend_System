@@ -1,1 +1,6 @@
-this is a comment..
+Movie Recommendation System  is one of the application of NLP techniques. Here i used couple of datasets which will have movie information and movie cast information. 
+First as a part of data preprocessing, i removed all the stop words and punctuation words and removed unnecessary columns from the dataset. Merged the two datasets as per rquirement.
+Using those two data, i have used CountVectorizer class for finding the importance of word for a particular movies then i draw vectors for each movies based on their top 1000 word frequench.
+After, i use cosine similarity to find the closet movies for a particular movie .
+used streamlit library to host this application on my local system
+I used TMDB Api connection to get the movie posters that will display the information on web page
